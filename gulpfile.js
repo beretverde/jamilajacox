@@ -8,13 +8,13 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 
-// gulp.task('serveprod', function() {
-//   connect.server({
-//     root: [your_project_path],
-//     port: process.env.PORT || 5000, // localhost:5000
-//     livereload: false
-//   });
-// });
+gulp.task('serveprod', function() {
+  connect.server({
+    root: [your_project_path],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+});
 
 // Set the banner content
 var banner = ['/*!\n',
