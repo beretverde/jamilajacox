@@ -24,9 +24,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/beretverde/jamilajacox.git"
-  },
-"scripts": {
-  "build": "gulp",
-  "start": "gulp dev"
-}
+  }
+
 }
